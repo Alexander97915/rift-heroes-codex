@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'site-bundle/**'
+      - 'site-bundle/sha256.txt'
   workflow_dispatch:
 
 permissions:
